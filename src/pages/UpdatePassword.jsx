@@ -53,7 +53,7 @@ function UpdatePassword() {
               </p>
               <input
                 required
-                type={showPassword ? "text" : "password"} 
+                type={showPassword ? "text" : "password"}
                 name="password"
                 value={password}
                 onChange={handleOnChange}
